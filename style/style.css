@@ -1,0 +1,32 @@
+
+body{
+    margin: 0;
+}
+.screen{
+    /*height:100%;*/
+    margin: 0 auto;
+}
+.container{
+    background-color: #F0F0F0;
+    overflow: auto;
+    box-sizing: border-box;
+}
+.title{
+    background-color: #E0E0E0;
+}
+.notify{
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.text{
+    text-align: center;
+    padding: 6%;
+    margin:0;
+}
+#setpwd{
+    text-align: center;
+    box-sizing: border-box;
+}
+.reset{
+    padding:6%;
+}

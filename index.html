@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="lib/jquery-2.1.4.min.js"></script>
+    <script src="lib/jquery.gesture.password.js"></script>
+    <script src="src/layout.js"></script>
+</head>
+<body>
+<div class="screen">
+    <div class="title">
+        <p class="text">手势密码</p>
+    </div>
+    <div class="container">
+        <div id="gesturepwd"></div>
+        <div id="notify" class="notify">
+            <p class="text">初始密码为"Z"字形</p>
+        </div>
+        <div id="setpwd">
+            <div class="reset">
+            <input id="reset" type="radio" name="密码" value="reset"/><label>设置密码</label>
+            <input id="checkIn" type="radio" name="密码" checked="checked"/><label>验证密码</label>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
